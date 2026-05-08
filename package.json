@@ -1,7 +1,14 @@
 {
-  "name": "omnify-cli",
+  "name": "@omnify-shell/cli",
   "version": "1.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Omnify-Shell/Omnify-CLI.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "omnify": "./dist/index.js"
   },
